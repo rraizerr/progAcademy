@@ -1,0 +1,27 @@
+body {
+    background-color: white;
+    border: 1px solid gray;
+    width: 1200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: 3px 1px 8px gray;
+}
+
+.app {
+    margin: 0 auto;
+    width: 95%;
+    display: block;
+    font-family: 'Literata',serif;
+    padding: 50px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 330px;
+}
+
+input {
+  margin-bottom: 15px;
+  max-width: 250px;
+}
